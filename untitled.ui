@@ -523,7 +523,7 @@ color: rgb(189, 189, 0);
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>4</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -1811,12 +1811,12 @@ color: rgb(189, 189, 0);
    <slot>setVisible(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>123</x>
-     <y>42</y>
+     <x>118</x>
+     <y>31</y>
     </hint>
     <hint type="destinationlabel">
-     <x>153</x>
-     <y>85</y>
+     <x>158</x>
+     <y>72</y>
     </hint>
    </hints>
   </connection>
@@ -1827,12 +1827,12 @@ color: rgb(189, 189, 0);
    <slot>setVisible(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>259</x>
-     <y>38</y>
+     <x>268</x>
+     <y>31</y>
     </hint>
     <hint type="destinationlabel">
-     <x>419</x>
-     <y>85</y>
+     <x>732</x>
+     <y>72</y>
     </hint>
    </hints>
   </connection>
@@ -1843,8 +1843,8 @@ color: rgb(189, 189, 0);
    <slot>setHidden(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>56</x>
-     <y>45</y>
+     <x>45</x>
+     <y>31</y>
     </hint>
     <hint type="destinationlabel">
      <x>242</x>
