@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow
 from .ui_untitled import Ui_MainWindow
 
 class VistaPage(QMainWindow, Ui_MainWindow):
@@ -6,6 +6,7 @@ class VistaPage(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
+        # Conectar los botones a sus respectivas funciones
         self.pushButton.clicked.connect(self.mostrarPaginaventa)
         self.pushButton_2.clicked.connect(self.mostrarPaginaNuevo)
         self.pushButton_7.clicked.connect(self.mostrarPaginaNuevo)
