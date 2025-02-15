@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1256</width>
-    <height>645</height>
+    <height>660</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -523,7 +523,7 @@ color: rgb(189, 189, 0);
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -839,6 +839,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -873,6 +876,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -906,6 +912,9 @@ color: rgb(189, 189, 0);
                    <width>100</width>
                    <height>0</height>
                   </size>
+                 </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
                  </property>
                 </widget>
                </item>
@@ -955,6 +964,9 @@ color: rgb(189, 189, 0);
                  <width>245</width>
                  <height>0</height>
                 </size>
+               </property>
+               <property name="maximum">
+                <double>99999999999.990005493164063</double>
                </property>
               </widget>
              </item>
@@ -1198,6 +1210,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -1232,6 +1247,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -1265,6 +1283,9 @@ color: rgb(189, 189, 0);
                    <width>100</width>
                    <height>0</height>
                   </size>
+                 </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
                  </property>
                 </widget>
                </item>
@@ -1314,6 +1335,9 @@ color: rgb(189, 189, 0);
                  <width>245</width>
                  <height>0</height>
                 </size>
+               </property>
+               <property name="maximum">
+                <double>99999999999.990005493164063</double>
                </property>
               </widget>
              </item>
@@ -1557,6 +1581,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -1591,6 +1618,9 @@ color: rgb(189, 189, 0);
                    <height>0</height>
                   </size>
                  </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
+                 </property>
                 </widget>
                </item>
               </layout>
@@ -1624,6 +1654,9 @@ color: rgb(189, 189, 0);
                    <width>100</width>
                    <height>0</height>
                   </size>
+                 </property>
+                 <property name="maximum">
+                  <double>99999999999.990005493164063</double>
                  </property>
                 </widget>
                </item>
@@ -1673,6 +1706,9 @@ color: rgb(189, 189, 0);
                  <width>245</width>
                  <height>0</height>
                 </size>
+               </property>
+               <property name="maximum">
+                <double>99999999999.990005493164063</double>
                </property>
               </widget>
              </item>
