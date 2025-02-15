@@ -1,14 +1,9 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow
-from Vista.ui_untitled import Ui_MainWindow  # Importa la UI generada
-
-class MainApp(QMainWindow, Ui_MainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setupUi(self)  # Configura la interfaz
+from PyQt6.QtWidgets import QApplication
+from Vista.vista import VistaPage  # Importamos la clase con la lógica
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    ventana = MainApp()
+    ventana = VistaPage()   # Usamos Vista, que ya incluye la configuración y lógica
     ventana.show()
-    sys.exit(app.exec())  # Ejecuta la aplicación correctamente en PyQt6
+    sys.exit(app.exec())
