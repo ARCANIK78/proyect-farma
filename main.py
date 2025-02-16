@@ -1,9 +1,11 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from Vista.vista import VistaPage  # Importamos la clase con la lógica
+from view.vista import VistaPage
+from Controller.controlador import Controlador
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    ventana = VistaPage()   # Usamos VistaPage, que ya incluye la configuración y lógica
-    ventana.show()
-    sys.exit(app.exec_())  # En PyQt5 se usa exec_() en lugar de exec()
+    vista = VistaPage()  # Instancia de la vista
+    controlador = Controlador(vista)  # El controlador se encarga de conectar la lógica
+    vista.show()
+    sys.exit(app.exec_())
