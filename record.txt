@@ -1,0 +1,8 @@
+
+-iniciar el proyecto:
+python3 main.py
+
+-base de datos ORM para migrar:
+alembic revision --autogenerate -m "Separar Producto y ProductoPrecio"
+-para aplicar la migracion:
+alembic upgrade head

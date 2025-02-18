@@ -9,6 +9,7 @@ from sqlalchemy import pool
 from model.base import Base
 from model.categoriaModel import Base
 from model.productoModel import Producto
+from model.ventaProductoModel import ProductoPrecio
 from config import engine
 from alembic import context
 
