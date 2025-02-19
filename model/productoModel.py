@@ -16,3 +16,5 @@ class Producto(Base):
     fecha_caducidad = Column(DateTime, nullable=False)
     vencido = Column(Boolean, nullable=False)
     precios = relationship("ProductoPrecio", back_populates="producto")
+def __repr__(self):
+        return f"<Producto(id={self.id}, nombre={self.nombre})>"

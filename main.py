@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from view.vista import VistaPage
+from view.vistaPage import VistaPage
 from Controller.controlador import Controlador
 
 if __name__ == "__main__":
